@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Rubik', sans-serif;
+	font-size: 14px;
+	color: #000;
+	background-color: #fff;
+}
+
+/* Container */
+div#container{
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	width: 1280px;
+	height: 2200px;
+	margin-left: -640px;
+}
+
+header#cabecalho{
+	position: relative;
+	width: 100%;
+	height: 150px;
+}
+
+figure.logo{
+	position: relative;
+	float: left;
+	top: 45px;
+}
+
+nav.menu{
+	position: relative;
+	float: right;
+	top: 65px;
+}
+
+nav.menu ul li{
+	display: inline-block;
+	padding-left: 50px;
+}
+
+nav.menu ul li a{
+	font-size: 18px;
+	text-decoration: none;
+	color: #1b37af;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+nav.menu ul li a:hover{
+	color: #00b4ff;
+	transition: all 0.3s linear;
+}
+
+.selected{
+	background-color: #1b37af;
+	color: #fff !important;
+	padding: 7px 15px 7px 15px;
+}
+
+/* Area de Navegação */
+section#area-navegacao{
+	width: 100%;
+	height: 450px;
+	background-color: #6eddbc;
+}
+
+div#area-navegacao{
+	width: 1200px;
+	height: 450px;
+    margin-left: 40px;
+}
+
+div#central-anunciante{
+	position: absolute;
+	float: left;
+	width: 346px;
+	height: 178px;
+	background-color: #376e5e;
+	top: 180px;
+}
+
+div#central-anunciante h2{
+	position: relative;
+	top:30px;
+	text-align: center;
+	color: #fff;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+form.form-central-anunciante{
+	position: relative;
+	float: left;
+	top: 40px;
+	margin-left: 30px;
+}
+
+input.input-user, input.input-password{
+	font-family: 'Rubik', sans-serif;
+	width: 220px;
+	height: 30px;
+	border: none;
+	background-color: #1b372f;
+	padding-left: 15px;
+	color: #fff;
+}
+
+input.btn-enviar{
+	position: relative;
+	font-family: 'Rubik', sans-serif;
+	float: left;
+	width: 40px;
+	height: 30px;
+	border: none;
+	background-color: #1b37af;
+	color: #fff;
+	margin-left: 250px;
+	margin-top:-30px;
+	cursor: pointer;
+}
+
+div#central-anunciante p{
+	position: relative;
+	text-align: center;
+	color: #fff;
+	top: 10px;
+}
+
+div#anuncie-seu-imovel{
+	position: absolute;
+	float: left;
+	width: 346px;
+	height: 178px;
+	background-color: #376e5e;
+	top: 390px;
+}
+
+div#anuncie-seu-imovel h2{
+	position: relative;
+	top:30px;
+	text-align: center;
+	color: #fff;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+div#anuncie-seu-imovel a{
+	position: relative;
+	margin-left: 40px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 500;
+	text-transform: uppercase;
+	background-color: #ff8400;
+	padding: 7px 15px 7px 15px;
+}
+
+div#anuncie-seu-imovel p{
+	position: relative;
+	text-align: center;
+    margin-left: 30px;
+	font-size: 12px;
+	color: #fff;
+	margin-top: 20px;
+}
+
+div#filtro-avancado{
+	position: absolute;
+	float: left;
+	width: 570px;
+	height: 388px;
+	background-color: #376e5e;
+	margin-top: 30px;
+	margin-left: 380px;
+}
+
+div#filtro-avancado h2{
+	position: relative;
+	top:30px;
+	text-align: left;
+	margin-left: 30px;
+	color: #fff;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+select.select-1{
+	position: relative;
+	float: left;
+	width: 240px;
+	height: 30px;
+	background-color: #1b372f;
+	border: none;
+	font-family: 'Rubik', sans-serif;
+	padding-left: 15px;
+	color: #fff;
+	top:70px;
+	margin-left: 30px;
+}
+
+select.select-2{
+	position: relative;
+	float: left;
+	width: 240px;
+	height: 30px;
+	background-color: #1b372f;
+	border: none;
+	font-family: 'Rubik', sans-serif;
+	padding-left: 15px;
+	color: #fff;
+	top:70px;
+	margin-left: 20px;
+}
+
+select.select-3{
+	position: relative;
+	float: left;
+	width: 240px;
+	height: 30px;
+	background-color: #1b372f;
+	border: none;
+	font-family: 'Rubik', sans-serif;
+	padding-left: 15px;
+	color: #fff;
+	top:100px;
+	margin-left: 30px;
+}
+
+select.select-4{
+	position: relative;
+	float: left;
+	width: 240px;
+	height: 30px;
+	background-color: #1b372f;
+	border: none;
+	font-family: 'Rubik', sans-serif;
+	padding-left: 15px;
+	color: #fff;
+	top:100px;
+	margin-left: 20px;
+}
+
+input.btn-listar{
+	position: relative;
+	float: right;
+	top: 200px;
+	margin-right: 40px;
+	background-color: #1b37af;
+	border: none;
+	font-family: 'Rubik', sans-serif;
+	padding: 7px 15px 7px 15px;
+	color: #fff;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+span.text-filtramos{
+	position: relative;
+	float: left;
+	color: #fff;
+	top: 210px;
+	margin-left: 30px;
+}
+
+div#publicidade-1{
+	position: relative;
+	float: right;
+	width: 220px;
+	height: 388px;
+	background-color: #376e5e;
+	top: 30px;
+}
+
+figure.publicidade_1{
+	position: relative;
+	width: 180px;
+	height: 250px;
+	margin-left: 20px;
+	top: 120px;
+}
+
+/* BUSCA COMUM */
+section#busca-comum{
+	width: 100%;
+	height: 100px;
+	background-color: #1b37af;
+}
+
+form.busca-comum{
+	position: relative;
+	float: left;
+	top: 25px;
+	margin-left: 420px;
+}
+
+input.busca-comum{
+	width: 390px;
+	height: 50px;
+	background-color: #0d1b57;
+	border: none;
+	font-family: 'Rubik', sans-serif;
+	padding-left: 15px;
+	color: #fff;
+}
+
+input.btn_buscacomum{
+    width: 148px;
+    height: 50px;
+    background-color: #ff8400;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 10px;
+}
