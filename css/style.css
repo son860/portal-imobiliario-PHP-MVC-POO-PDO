@@ -18,7 +18,7 @@ div#container{
 	left: 50%;
 	right: 50%;
 	width: 1280px;
-	height: 2200px;
+	height: 2600px;
 	margin-left: -640px;
 }
 
@@ -323,4 +323,260 @@ input.btn_buscacomum{
     text-transform: uppercase;
     cursor: pointer;
     margin-left: 10px;
+}
+
+/* LISTA */
+section#lista{
+	width: 100%;
+	height: 1468px;
+	background-color: #e5e5e5;
+}
+
+article#lista{
+	width: 1200px;
+	height: 1468px;
+	margin-left: 40px;
+}
+
+/* LISTA 1 */
+ul.lista_um{
+	position: relative;
+	float: left;
+	margin-top: 80px;
+}
+
+ul.lista_um li{
+	list-style: none;
+}
+
+/* LISTA 2 */
+ul.lista_dois{
+	position: relative;
+	float: left;
+	margin-top: 80px;
+	margin-left: 20px;
+}
+
+ul.lista_dois li{
+	list-style: none;
+}
+
+/* LISTA 3 */
+ul.lista_tres{
+	position: relative;
+	float: left;
+	margin-top: 80px;
+	margin-left: 20px;
+}
+
+ul.lista_tres li{
+	list-style: none;
+}
+
+/* LISTA 4 */
+ul.lista_quatro{
+	position: relative;
+	float: left;
+	margin-top: 80px;
+	margin-left: 20px;
+}
+
+ul.lista_quatro li{
+	list-style: none;
+}
+
+/* LISTA 5 */
+ul.lista_cinco{
+	position: relative;
+	float: left;
+	margin-top: 250px;
+	margin-left: 0px;
+}
+
+ul.lista_cinco li{
+	list-style: none;
+}
+
+/* LISTA 6 */
+ul.lista_seis{
+	position: relative;
+	float: left;
+	margin-top: 250px;
+	margin-left: 20px;
+}
+
+ul.lista_seis li{
+	list-style: none;
+}
+
+/* LISTA 6 */
+ul.lista_sete{
+	position: relative;
+	float: left;
+	margin-top: 250px;
+	margin-left: 20px;
+}
+
+ul.lista_sete li{
+	list-style: none;
+}
+
+/* BANNER ANUNCIE */
+figure.banner-anuncie{
+	position: relative;
+	float: left;
+	margin-top: 250px;
+	margin-left: 20px;
+}
+
+.anuncie{
+	width: 285px;
+}
+
+div#lista-relacionada{
+	position: absolute;
+	width: 1200px;
+	height: 380px;
+	margin-top: 900px;
+	background-color: #1b37af;
+}
+
+/* LISTA RELACIONADA 1 */
+ul.lista_rel_1{
+	position: relative;
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+ul.lista_rel_1 li{
+	list-style: none;
+}
+
+/* LISTA RELACIONADA 2 */
+ul.lista_rel_2{
+	position: relative;
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+ul.lista_rel_2 li{
+	list-style: none;
+}
+
+/* LISTA RELACIONADA 3 */
+ul.lista_rel_3{
+	position: relative;
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+ul.lista_rel_3 li{
+	list-style: none;
+}
+
+/* LISTA RELACIONADA 4 */
+ul.lista_rel_4{
+	position: relative;
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+ul.lista_rel_4 li{
+	list-style: none;
+}
+
+/* LISTA RELACIONADA 5 */
+ul.lista_rel_5{
+	position: relative;
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+ul.lista_rel_5 li{
+	list-style: none;
+}
+
+/* IMAGES REL STYLES */
+figure.lista-rel-img{
+	width: 216px;
+	height: 140px;
+	background-color: #000;
+}
+
+figure.lista-rel-img h2{
+	position: relative;
+	color: #fff;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 150px;
+}
+
+figure.lista-rel-img p{
+	position: relative;
+	top: 0px;
+	text-align: center;
+}
+
+figure.lista-rel-img a{
+	position: relative;
+	top: 5px;
+	margin-left: 56px;
+	text-decoration: none;
+	background-color: #ff8400;
+	padding: 7px 15px 7px 15px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+/* IMAGES STYLES */
+figure.lista-img{
+	width: 285px;
+	height: 180px;
+	background-color: #000;
+}
+
+figure.lista-img h2{
+	position: relative;
+	color: #1b37af;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 180px;
+}
+
+figure.lista-img p{
+	position: relative;
+	top: 0px;
+	text-align: center;
+}
+
+figure.lista-img a{
+	position: relative;
+	top: 0px;
+	margin-left: 92px;
+	text-decoration: none;
+	background-color: #ff8400;
+	padding: 7px 15px 7px 15px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+div#banner-inferior{
+	position: absolute;
+	width: 1200px;
+	height: 150px;
+	background-color: gray;
+	margin-top: 1300px;
+}
+
+footer#rodapé{
+	width: 100%;
+	height: 400px;
+	background-color: #212121;
 }
