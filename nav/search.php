@@ -3,9 +3,9 @@
 
 		<div id="categoria-descricao">
 			<br>
-        	<h1>Categoria</h1>
+        	<h1>Buscar imóveis</h1>
             <br>
-        	<h2>Confira os principais imóveis</h2>
+        	<h2>Resultados de sua pesquisa: <span class="results">0 Resultados</span></h2>
             <br>
             
             <nav id="categorias-lista">

@@ -21,8 +21,6 @@
         	<br><br>
         	<input type="text" name="telefone" class="anuncie" placeholder="Telefone:">
         	<br><br>
-        	<input type="text" name="cpf" class="anuncie" placeholder="CPF:">
-        	<br><br>
         	<input type="text" name="email" class="anuncie" placeholder="Senha:">
         	<br><br>
         	<input type="submit" value="Cadastrar" name="btn-anuncie-cadastrar" class="btn-anuncie-cadastrar">

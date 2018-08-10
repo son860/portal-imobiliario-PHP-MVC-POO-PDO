@@ -15,7 +15,7 @@ elseif(substr($pg, 0, 4) == 'http' or substr($pg, 0, 1) == "/" or substr($pg, 0,
 	echo '<br>Página não exsite!</br>';
 }
 else{
-	include ("nav/$pg.php");
+	include "nav/$pg.php";
 }
 
 ?>

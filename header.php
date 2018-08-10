@@ -5,6 +5,7 @@
 	<title>Meu Imóvel</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700" rel="stylesheet">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	</head>
 
@@ -40,7 +41,7 @@
        	  	 	<div id="central-anunciante">
        	  	 		<h2>Central Do Anunciante</h2>
        	  	 		<form action="" method="POST" name="central_anunciante" class="form-central-anunciante">
-       	  	 			<input type="text" name="usuario" placeholder="Usuário:" class="input-user">
+       	  	 			<input type="text" name="usuario" placeholder="E-mail:" class="input-user">
        	  	 			<br><br>
        	  	 			<input type="password" name="senha" placeholder="Senha:" class="input-password">
        	  	 			<br>
@@ -107,8 +108,8 @@
        	  <section id="busca-comum">
        	  	 <div id="busca-comum">
 
-       	  	 	<form action="" method="POST" name="busca_comum" class="busca-comum">
-       	  	 		<input type="text" name="s" class="busca-comum" placeholder="Busca comum:">
+       	  	 	<form action="index.php?pg=search" method="POST" name="busca_comum" class="busca-comum">
+       	  	 		<input type="text" name="pesquisa" class="busca-comum" placeholder="Busca comum:">
        	  	 		<input type="submit" value="Buscar" name="buscar" class="btn_buscacomum">
        	  	 	</form>
 
